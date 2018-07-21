@@ -1,5 +1,5 @@
 import { forceCheck } from "react-lazyload";
-// import { navigateTo } from 'gatsby-link';
+import { navigateTo } from "gatsby-link";
 
 export function featureNavigator(e) {
   e && e.preventDefault();
@@ -14,13 +14,9 @@ export function featureNavigator(e) {
           this.props.setNavigatorPosition("is-featured");
           this.props.setNavigatorShape("open");
 
-          // uncomment following lines if you want to count featuring Navigator as a visit
-          // to index page ('/'), you have to also uncomment import { navigateTo }...
-          /*
           setTimeout(() => {
             navigateTo("/");
-          }, 1000);
-          */
+          }, 0);
         });
       }, 300);
     } else {
