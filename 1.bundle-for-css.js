@@ -698,7 +698,7 @@ webpackJsonp([1],{
 	      fontWeight: 300,
 	      lineHeight: 1.5,
 	      fontSize: ".95em",
-	      textAlign: "left",
+	      textAlign: "center",
 	      marginBottom: ".8em",
 	      "& p:first-child": {
 	        marginTop: 0
