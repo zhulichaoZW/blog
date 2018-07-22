@@ -157,7 +157,7 @@ exports.modules = {
 	    return _react2.default.createElement(
 	      "aside",
 	      {
-	        className: classes.infoBox + " " + (navigatorPosition ? navigatorPosition : "") + "\n        " + (navigatorShape ? navigatorShape : "")
+	        className: classes.infoBox + " " + (navigatorPosition ? navigatorPosition : "") + " \n        " + (navigatorShape ? navigatorShape : "")
 	      },
 	      info && _react2.default.createElement(_InfoHeader2.default, {
 	        info: info,
