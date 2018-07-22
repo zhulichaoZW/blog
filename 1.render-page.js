@@ -157,7 +157,7 @@ exports.modules = {
 	    return _react2.default.createElement(
 	      "aside",
 	      {
-	        className: classes.infoBox + " " + (navigatorPosition ? navigatorPosition : "") + " \n        " + (navigatorShape ? navigatorShape : "")
+	        className: classes.infoBox + " " + (navigatorPosition ? navigatorPosition : "") + "\n        " + (navigatorShape ? navigatorShape : "")
 	      },
 	      info && _react2.default.createElement(_InfoHeader2.default, {
 	        info: info,
@@ -424,23 +424,6 @@ exports.modules = {
 	  return _react2.default.createElement(
 	    "nav",
 	    { className: classes.infoMenu },
-	    pages.map(function (page, i) {
-	      var _page$node = page.node,
-	          fields = _page$node.fields,
-	          frontmatter = _page$node.frontmatter;
-	
-	      return _react2.default.createElement(
-	        _gatsbyLink2.default,
-	        {
-	          key: fields.slug,
-	          to: fields.slug,
-	          onClick: linkOnClick,
-	          className: classes.link,
-	          "data-shape": "closed"
-	        },
-	        frontmatter.menuTitle ? frontmatter.menuTitle : frontmatter.title
-	      );
-	    }),
 	    _react2.default.createElement(
 	      _gatsbyLink2.default,
 	      { to: "/contact/", onClick: linkOnClick, className: classes.link, "data-shape": "closed" },
@@ -552,7 +535,7 @@ exports.modules = {
 	      height: "60px"
 	    }, _avatar["@media (hover: hover)"] = {
 	      "&:hover": {
-	        borderRadius: "75% 65%"
+	        transform: "scale(1.2)"
 	      }
 	    }, _avatar),
 	    title: (_title = {

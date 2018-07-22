@@ -1,16 +1,20 @@
 {
   "assetsByChunkName": {
+    "path---wechat-base-2": [
+      "path---wechat-base-2-0e334e3bd412a860fd41.js",
+      "path---wechat-base-2-0e334e3bd412a860fd41.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-aa9570313651ef926b5a.js",
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
-    "path---2018-05-04-git-base-2": [
-      "path---2018-05-04-git-base-2-0456ee8e232ea7853039.js",
-      "path---2018-05-04-git-base-2-0456ee8e232ea7853039.js.map"
+    "path---git-base-2": [
+      "path---git-base-2-19fb48b6942e3b13c2f5.js",
+      "path---git-base-2-19fb48b6942e3b13c2f5.js.map"
     ],
     "path---": [
-      "path----f67c099ac8a807fda547.js",
-      "path----f67c099ac8a807fda547.js.map"
+      "path----ae2c9eaf0f505d527d51.js",
+      "path----ae2c9eaf0f505d527d51.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-2c0abecc6970f6ea79cd.js",
@@ -21,8 +25,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-dd48e5c2cb499205f37c.js",
-      "component---src-layouts-index-js-dd48e5c2cb499205f37c.js.map"
+      "component---src-layouts-index-js-c99db9ad55ca2d9a10d2.js",
+      "component---src-layouts-index-js-c99db9ad55ca2d9a10d2.js.map"
     ],
     "path---index": [
       "path---index-fc9140ca41aa1cbc022b.js",
@@ -33,26 +37,22 @@
       "component---src-pages-search-js-f04a8206aa464a3e27a0.js.map"
     ],
     "commons": [
-      "commons-034c3a342b397cdc7461.js",
+      "commons-8fe7e73f2c61c1077ef0.js",
       "build-js-styles.css",
-      "commons-034c3a342b397cdc7461.js.map",
+      "commons-8fe7e73f2c61c1077ef0.js.map",
       "build-js-styles.css.map"
     ],
     "path---success": [
       "path---success-e2a998fec815783288fe.js",
       "path---success-e2a998fec815783288fe.js.map"
     ],
-    "path---2018-04-08-wechat-base-2": [
-      "path---2018-04-08-wechat-base-2-0d1840e89c06b0f2fdff.js",
-      "path---2018-04-08-wechat-base-2-0d1840e89c06b0f2fdff.js.map"
-    ],
     "path---contact": [
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-post-template-js": [
-      "component---src-templates-post-template-js-95e3edafd90a18776383.js",
-      "component---src-templates-post-template-js-95e3edafd90a18776383.js.map"
+      "component---src-templates-post-template-js-2ec2b17e5cc12c6a6b6c.js",
+      "component---src-templates-post-template-js-2ec2b17e5cc12c6a6b6c.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
@@ -63,9 +63,9 @@
       "path---starters-8dfddd975ce8faf08123.js.map"
     ],
     "app": [
-      "app-11a485ab3d798a29d975.js",
+      "app-63030342e1e66a0cb331.js",
       "build-js-styles.css",
-      "app-11a485ab3d798a29d975.js.map",
+      "app-63030342e1e66a0cb331.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
@@ -77,8 +77,8 @@
       "path---search-6b4547201b5d440cb830.js.map"
     ],
     "path---wechat-base-3": [
-      "path---wechat-base-3-e442e0b6c6711c887a5c.js",
-      "path---wechat-base-3-e442e0b6c6711c887a5c.js.map"
+      "path---wechat-base-3-c3c2c66b708aa81f11fd.js",
+      "path---wechat-base-3-c3c2c66b708aa81f11fd.js.map"
     ],
     "path---about": [
       "path---about-244e03f8a1abea17ab3a.js",
