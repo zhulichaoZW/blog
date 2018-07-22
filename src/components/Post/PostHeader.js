@@ -43,21 +43,11 @@ const styles = theme => ({
 const PostHeader = props => {
   const { classes, title, subTitle, date } = props;
 
-  function myDate(dateString) {
-    const dateObj = new Date(dateString).toUTCString();
-    const dateToShow = dateObj
-      .split(" ")
-      .slice(0, 4)
-      .join(" ");
-
-    return dateToShow;
-  }
-
   return (
     <header className={classes.header}>
       <h1 className={classes.title}>{title}</h1>
       <h2 className={classes.subTitle}>{subTitle}</h2>
-      <div className={classes.meta}>{myDate(date)}</div>
+      <div className={classes.meta}>{date}</div>
     </header>
   );
 };

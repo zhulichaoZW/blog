@@ -29,7 +29,10 @@ const styles = theme => ({
       "&:hover": {
         color: theme.navigator.colors.postsListItemLinkHover,
         "& .pointer": {
-          borderRadius: "65% 75%"
+          marginLeft: "-15px",
+          position: "relative",
+          transition: "all .4s ease-out",
+          borderRadius: "4px"
         }
       }
     }
@@ -38,14 +41,13 @@ const styles = theme => ({
     position: "relative",
     flexShrink: 0,
     overflow: "hidden",
-    borderRadius: "75% 65%",
+    borderRadius: "4px",
     width: "60px",
     height: "60px",
     margin: "0",
     transition: "all .5s",
     "& img": {
-      width: "100%",
-      height: "100%"
+      width: "100%"
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
       marginRight: ".5em",
@@ -54,7 +56,7 @@ const styles = theme => ({
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
       marginRight: ".8em",
-      width: "90px",
+      width: "110px",
       height: "90px",
       transition: "all .3s",
       transitionTimingFunction: "ease",
@@ -69,7 +71,9 @@ const styles = theme => ({
     flexGrow: 1,
     display: "flex",
     flexDirection: "column",
+    justifyContent: "space-between",
     width: "100%",
+    height: "100%",
     "& h1": {
       lineHeight: 1.15,
       fontWeight: 600,
@@ -110,6 +114,28 @@ const styles = theme => ({
       ".moving-featured &, .is-aside &": {
         margin: "0 0 0 .5em"
       }
+    },
+    "& h3": {
+      lineHeight: 1,
+      display: "block",
+      fontSize: `${theme.navigator.sizes.postsListItemH3Font}em`,
+      margin: ".5em 0 0 0",
+      [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
+        fontSize: `${theme.navigator.sizes.postsListItemH3Font *
+          theme.navigator.sizes.fontIncraseForM}em`
+      },
+      [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
+        fontSize: `${theme.navigator.sizes.postsListItemH3Font *
+          theme.navigator.sizes.fontIncraseForL}em`,
+        ".moving-featured &, .is-aside &": {
+          display: "none"
+        }
+      }
+    },
+    [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
+      ".moving-featured &, .is-aside &": {
+        margin: "0 0 0 .5em"
+      }
     }
   }
 });
@@ -124,7 +150,7 @@ class ListItem extends React.Component {
       const category = this.props.post.node.frontmatter.category;
       const categoryFilter = this.props.categoryFilter;
 
-      if (categoryFilter === "all posts") {
+      if (categoryFilter === "全部") {
         this.setState({ hidden: false });
       } else if (category !== categoryFilter) {
         this.setState({ hidden: true });
@@ -140,7 +166,7 @@ class ListItem extends React.Component {
     return (
       <li
         className={`${classes.listItem} ${post.node.frontmatter.category}`}
-        style={{ display: `${this.state.hidden ? "none" : "block"}` }}
+        style={{ display: `${this.state.hidden ? "none" : "flex"}` }}
         key={post.node.fields.slug}
       >
         <Link
@@ -165,6 +191,7 @@ class ListItem extends React.Component {
           <div className={classes.listItemText}>
             <h1>{post.node.frontmatter.title}</h1>
             {post.node.frontmatter.subTitle && <h2>{post.node.frontmatter.subTitle}</h2>}
+            <h3>Last Editing - {post.node.fields.prefix}</h3>
           </div>
         </Link>
       </li>

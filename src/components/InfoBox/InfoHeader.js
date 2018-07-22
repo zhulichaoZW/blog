@@ -61,13 +61,14 @@ const styles = theme => ({
     },
     "@media (hover: hover)": {
       "&:hover": {
-        borderRadius: "75% 65%"
+        transform: "scale(1.2)"
       }
     }
   },
   title: {
     willChange: "transform, left, top",
     fontSize: `${theme.info.fonts.boxTitleSize}em`,
+    fontWeight: 500,
     margin: 0,
     float: "left",
     transitionTimingFunction: "ease",

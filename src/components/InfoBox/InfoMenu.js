@@ -28,7 +28,7 @@ const InfoMenu = props => {
 
   return (
     <nav className={classes.infoMenu}>
-      {pages.map((page, i) => {
+      {/* {pages.map((page, i) => {
         const { fields, frontmatter } = page.node;
         return (
           <Link
@@ -41,7 +41,7 @@ const InfoMenu = props => {
             {frontmatter.menuTitle ? frontmatter.menuTitle : frontmatter.title}
           </Link>
         );
-      })}
+      })} */}
       <Link to="/contact/" onClick={linkOnClick} className={classes.link} data-shape="closed">
         Contact
       </Link>

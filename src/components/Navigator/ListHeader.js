@@ -84,7 +84,7 @@ const ListHeader = props => {
     <header>
       {navigatorShape === "closed" && (
         <div className={classes.closed}>
-          <h3>List of posts</h3>
+          <h3>全部文章</h3>
           <IconButton
             aria-label="Expand the list"
             className={classes.expand}
@@ -96,7 +96,7 @@ const ListHeader = props => {
         </div>
       )}
       {navigatorShape === "open" &&
-        categoryFilter !== "all posts" && (
+        categoryFilter !== "全部" && (
           <div className={classes.filter}>
             <small>Active category filter:</small> <strong>{categoryFilter}</strong>
             <IconButton
