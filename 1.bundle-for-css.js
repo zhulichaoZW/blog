@@ -557,6 +557,7 @@ webpackJsonp([1],{
 	    title: (_title = {
 	      willChange: "transform, left, top",
 	      fontSize: theme.info.fonts.boxTitleSize + "em",
+	      fontWeight: 500,
 	      margin: 0,
 	      float: "left",
 	      transitionTimingFunction: "ease",
@@ -840,7 +841,7 @@ webpackJsonp([1],{
 	    _react2.default.createElement(
 	      "h5",
 	      { className: classes.header },
-	      "built with:"
+	      "\u53CB\u60C5\u94FE\u63A5:"
 	    ),
 	    _react2.default.createElement(
 	      "div",
