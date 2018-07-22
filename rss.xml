@@ -1,18 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[朱立超的个人博客]]></title><description><![CDATA[个人博客]]></description><link>https://www.zhulichao.club</link><generator>RSS for Node</generator><lastBuildDate>Sun, 22 Jul 2018 10:06:09 GMT</lastBuildDate><item><title><![CDATA[微信服务号开发基础]]></title><description><![CDATA[微信服务号开发其实就是普通的网站开发，只不过其中可调用微信的 js-sdk 使用基于微信的 api，我们的项目中只是使用了支付、隐藏/显示菜单、自定义分享内容的功能，主要是为了支持小程序不能进行 iOS…]]></description><link>https://www.zhulichao.club/wechat-base3/</link><guid isPermaLink="false">https://www.zhulichao.club/wechat-base3/</guid><content:encoded>&lt;div&gt;
-          &lt;div
-            class=&quot;gatsby-resp-iframe-wrapper&quot;
-            style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden;margin-bottom: 2em&quot;
-          &gt;
-            &lt;iframe src=&quot;https://v.miaopai.com/iframe?scid=SvyHaHOczsp7B6ftW86oqMMz62-h5ai6~Fwp8A__&quot; frameborder=&quot;0&quot; allowfullscreen style=&quot;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-          &quot;&gt;
-&lt;/iframe&gt;
-          &lt;/div&gt;
-          &lt;/div&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[朱立超的个人博客]]></title><description><![CDATA[个人博客]]></description><link>https://www.zhulichao.club</link><generator>RSS for Node</generator><lastBuildDate>Sun, 22 Jul 2018 13:57:40 GMT</lastBuildDate><item><title><![CDATA[微信服务号开发基础]]></title><description><![CDATA[微信服务号开发其实就是普通的网站开发，只不过其中可调用微信的 js-sdk 使用基于微信的 api，我们的项目中只是使用了支付、隐藏/显示菜单、自定义分享内容的功能，主要是为了支持小程序不能进行 iOS…]]></description><link>https://www.zhulichao.club/wechat-base3/</link><guid isPermaLink="false">https://www.zhulichao.club/wechat-base3/</guid><content:encoded>&lt;p&gt;&lt;video 
+    width=&quot;800&quot; 
+    height=&quot;450&quot; 
+    src=&quot;./movie.mp4&quot;
+    frameborder=&quot;0&quot; 
+    allowfullscreen /&gt;&lt;/p&gt;
 &lt;p&gt;微信服务号开发其实就是普通的网站开发，只不过其中可调用微信的 js-sdk 使用基于微信的 api，我们的项目中只是使用了支付、隐藏/显示菜单、自定义分享内容的功能，主要是为了支持小程序不能进行 iOS 支付的问题。由于一部分功能是在小程序中的，就需要小程序与服务号的互相跳转。服务号可通过菜单的定义、长按图片识别二维码跳转到小程序，由于小程序内部只能识别小程序码，不能直接跳转到服务号，只能使用图片+文字引导的方式让用户自己进入服务号。&lt;/p&gt;
 &lt;h2&gt;在线工具&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login&quot;&gt;公众平台测试账号&lt;/a&gt;&lt;/p&gt;
