@@ -1,9 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[朱立超的个人博客]]></title><description><![CDATA[个人博客]]></description><link>https://www.zhulichao.club</link><generator>RSS for Node</generator><lastBuildDate>Sun, 22 Jul 2018 13:57:40 GMT</lastBuildDate><item><title><![CDATA[微信服务号开发基础]]></title><description><![CDATA[微信服务号开发其实就是普通的网站开发，只不过其中可调用微信的 js-sdk 使用基于微信的 api，我们的项目中只是使用了支付、隐藏/显示菜单、自定义分享内容的功能，主要是为了支持小程序不能进行 iOS…]]></description><link>https://www.zhulichao.club/wechat-base3/</link><guid isPermaLink="false">https://www.zhulichao.club/wechat-base3/</guid><content:encoded>&lt;p&gt;&lt;video 
-    width=&quot;800&quot; 
-    height=&quot;450&quot; 
-    src=&quot;./movie.mp4&quot;
-    frameborder=&quot;0&quot; 
-    allowfullscreen /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[朱立超的个人博客]]></title><description><![CDATA[个人博客]]></description><link>https://www.zhulichao.club</link><generator>RSS for Node</generator><lastBuildDate>Sun, 22 Jul 2018 15:24:16 GMT</lastBuildDate><item><title><![CDATA[微信服务号开发基础]]></title><description><![CDATA[微信服务号开发其实就是普通的网站开发，只不过其中可调用微信的 js-sdk 使用基于微信的 api，我们的项目中只是使用了支付、隐藏/显示菜单、自定义分享内容的功能，主要是为了支持小程序不能进行 iOS…]]></description><link>https://www.zhulichao.club/wechat-base3/</link><guid isPermaLink="false">https://www.zhulichao.club/wechat-base3/</guid><content:encoded>&lt;div&gt;
+          &lt;div
+            class=&quot;gatsby-resp-iframe-wrapper&quot;
+            style=&quot;padding-bottom: 68%; position: relative; height: 0; overflow: hidden;margin-bottom: 2em&quot;
+          &gt;
+            &lt;iframe src=&quot;http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&amp;amp;bizid=1023&amp;amp;hy=SH&amp;amp;fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400&quot; frameborder=&quot;0&quot; allowfullscreen style=&quot;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          &quot;&gt;&lt;/iframe&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
 &lt;p&gt;微信服务号开发其实就是普通的网站开发，只不过其中可调用微信的 js-sdk 使用基于微信的 api，我们的项目中只是使用了支付、隐藏/显示菜单、自定义分享内容的功能，主要是为了支持小程序不能进行 iOS 支付的问题。由于一部分功能是在小程序中的，就需要小程序与服务号的互相跳转。服务号可通过菜单的定义、长按图片识别二维码跳转到小程序，由于小程序内部只能识别小程序码，不能直接跳转到服务号，只能使用图片+文字引导的方式让用户自己进入服务号。&lt;/p&gt;
 &lt;h2&gt;在线工具&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login&quot;&gt;公众平台测试账号&lt;/a&gt;&lt;/p&gt;
@@ -64,9 +72,11 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 &lt;p&gt;使用手机微信打开网页就是线上运行的效果，但这样不能使用 localhost 或 127.0.0.1 的地址，需要内网穿透工具进行本地端口映射，然后通过穿透的地址访问，可以使用 &lt;a href=&quot;https://ngrok.com/&quot;&gt;ngrok&lt;/a&gt;，但是有些慢，还是建议团队搭建完善的开发环境。&lt;/p&gt;
 &lt;p&gt;可使用&lt;a href=&quot;https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html&quot;&gt;微信开发者工具&lt;/a&gt;或&lt;a href=&quot;https://mp.weixin.qq.com/wiki?t=resource/res_main&amp;#x26;id=mp1455784140&quot;&gt;微信web开发者工具&lt;/a&gt;进行调试。打开微信web开发者工具可能会报错，一直点确定就打开了。微信web开发者工具可进行移动调试，但需要注意，它在 Network 中显示的请求可能不准确，个人认为是过滤掉了微信内部的请求。以下为授权操作的请求对比。&lt;/p&gt;
 &lt;p&gt;
+  &lt;figure class=&quot;gatsby-resp-image-figure&quot;&gt;
+  
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/error-a95574b88827950db1a22f06bf11eb2b-21105.png&quot;
+    href=&quot;/static/error-a95574b88827950db1a22f06bf11eb2b-a21d8.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -74,7 +84,7 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 700px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -84,22 +94,98 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
         alt=&quot;微信web开发者工具报错&quot;
-        title=&quot;&quot;
-        src=&quot;/static/error-a95574b88827950db1a22f06bf11eb2b-55803.png&quot;
-        srcset=&quot;/static/error-a95574b88827950db1a22f06bf11eb2b-551ed.png 175w,
-/static/error-a95574b88827950db1a22f06bf11eb2b-1aa07.png 350w,
-/static/error-a95574b88827950db1a22f06bf11eb2b-55803.png 700w,
-/static/error-a95574b88827950db1a22f06bf11eb2b-21105.png 840w&quot;
-        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        title=&quot;微信web开发者工具报错&quot;
+        src=&quot;/static/error-a95574b88827950db1a22f06bf11eb2b-c1415.png&quot;
+        srcset=&quot;/static/error-a95574b88827950db1a22f06bf11eb2b-23fbd.png 200w,
+/static/error-a95574b88827950db1a22f06bf11eb2b-a66bf.png 400w,
+/static/error-a95574b88827950db1a22f06bf11eb2b-c1415.png 800w,
+/static/error-a95574b88827950db1a22f06bf11eb2b-a21d8.png 840w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;{% img &lt;a href=&quot;https://zhulichao.github.io/2018/07/07/wechat-base3/error.png&quot;&gt;https://zhulichao.github.io/2018/07/07/wechat-base3/error.png&lt;/a&gt; 微信web开发者工具报错 %}&lt;/p&gt;
-&lt;p&gt;{% img &lt;a href=&quot;https://zhulichao.github.io/2018/07/07/wechat-base3/tool.png&quot;&gt;https://zhulichao.github.io/2018/07/07/wechat-base3/tool.png&lt;/a&gt; 微信开发者工具 %}&lt;/p&gt;
-&lt;p&gt;{% img &lt;a href=&quot;https://zhulichao.github.io/2018/07/07/wechat-base3/web_tool.png&quot;&gt;https://zhulichao.github.io/2018/07/07/wechat-base3/web_tool.png&lt;/a&gt; 微信web开发者工具 %}&lt;/p&gt;
+    
+  &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;微信web开发者工具报错&lt;/figcaption&gt;
+  &lt;/figure&gt;
+      
+
+  &lt;figure class=&quot;gatsby-resp-image-figure&quot;&gt;
+  
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/tool-d28a3acc9dc774d5cd1337942e3c2792-e0358.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 759px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 33.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABd0lEQVQoz0WRWZLUMBBEff+L8MMBuAIRNEzPAL15323Zlry72w2PsieI+cjIqlJKkcqywuMrwfGN8O0n3uE7/rcDwY8XMseldH16VTFqw5hmNFGMKUoezz/My51xmkk9n9p0jNIP4x3r4qQEcUWYNPhhiRcUBJEiVT1hplHtg6jsOIsuyg2BINF3cpmnepFZS2wm9PyXbgKrMgPzk3esH7wIVNMxSJGVmmRD0XB4PXE4/ibKFHlZo2ojjy/8qldc/cSyHY+iVIzjxDS9Y6uXZdnn/9mWCOIk5Xy5EUYJ8zzv2iiKUKbnkzvzWWCdRHCTR23X42q7wj6O5BLIpSTL96zyYosiFEeK89WmkUzvj5V+GHf9JAZ4TrRzKw5TjV/0eHmHkxm2/rblWfbc4ppAOCi6vb5Ktl+PV14uAY5o8m7lLLmHookl1y/pCWuzr01L3WiB2bmqG9p+2L/aaL2fb27KqpbFRaRZsc+2M1VVst2JdV1pZMv/AJ6aCxTAcLB2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;微信开发者工具&quot;
+        title=&quot;微信开发者工具&quot;
+        src=&quot;/static/tool-d28a3acc9dc774d5cd1337942e3c2792-e0358.png&quot;
+        srcset=&quot;/static/tool-d28a3acc9dc774d5cd1337942e3c2792-2ea4b.png 200w,
+/static/tool-d28a3acc9dc774d5cd1337942e3c2792-45e84.png 400w,
+/static/tool-d28a3acc9dc774d5cd1337942e3c2792-e0358.png 759w&quot;
+        sizes=&quot;(max-width: 759px) 100vw, 759px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+  &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;微信开发者工具&lt;/figcaption&gt;
+  &lt;/figure&gt;
+      
+
+  &lt;figure class=&quot;gatsby-resp-image-figure&quot;&gt;
+  
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/web_tool-72c347eed6ca4d3042bc9e5440641601-5c872.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 774px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 10.723514211886306%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAeElEQVQI1y2LWw6CMBAAuf/FvILEhEShLWWX8rIQUDOuj4/JZD6miM4jl4p7aMnecOHnNrJ0SrrW5DSg5kkToRPWbf+yHU80dqg9Ic/IPFJUvsdND4YD0m78/WnJL259pt+gbJR22mlkIVkPRrQua8HpynkZOYnnDdLnl3OEMMW4AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;微信web开发者工具&quot;
+        title=&quot;微信web开发者工具&quot;
+        src=&quot;/static/web_tool-72c347eed6ca4d3042bc9e5440641601-5c872.png&quot;
+        srcset=&quot;/static/web_tool-72c347eed6ca4d3042bc9e5440641601-9950e.png 200w,
+/static/web_tool-72c347eed6ca4d3042bc9e5440641601-11232.png 400w,
+/static/web_tool-72c347eed6ca4d3042bc9e5440641601-5c872.png 774w&quot;
+        sizes=&quot;(max-width: 774px) 100vw, 774px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+  &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;微信web开发者工具&lt;/figcaption&gt;
+  &lt;/figure&gt;
+      &lt;/p&gt;
 &lt;h2&gt;登录授权&lt;/h2&gt;
 &lt;p&gt;参考&lt;a href=&quot;https://mp.weixin.qq.com/wiki?t=resource/res_main&amp;#x26;id=mp1421140842&quot;&gt;微信网页授权&lt;/a&gt;文档，工作主要是在后端，提供一个地址供前端访问，其余工作都由后端完成。后端确保 appID、appsecret、Token 值正确，服务号设置确保接口配置信息、JS接口安全域名、授权回调页面域名正确，即可完成登录授权。前后端都需要注意哪些设置的值是带协议的，哪些是不带协议的，如果服务号设置和后端设置的 appID 等值是正确的，可能是由于多带或少带协议名返回 redirect&lt;em&gt;uri 错误。我们项目中的 API&lt;/em&gt;SERVER_URL 环境变量如果带了协议名，就会返回这个错误。在微信开发者工具中，授权是跳转到一个登录的页面，在真机上是弹框授权。&lt;/p&gt;
 &lt;p&gt;因为微信网页授权其实是进行的页面跳转，在项目中如果授权后仍然停留在当前页面，但要发生一些行为，如弹框，只能通过授权后的回调地址带参数的形式。建议授权后的回调地址如果需要传参数，使用 hash 的形式传参，这是因为这个页面如果需要使用 js-sdk，在 iOS 上页面路径发生变化可能会导致 &lt;code class=&quot;language-text&quot;&gt;wx.config()&lt;/code&gt; 执行失败，但 hash 的形式不会有影响。进入页面时在 componentDidMount 中判断 url 是否带有指定的 hash 参数，有则表示是授权后进入的当前页面，执行指定的行为，然后将页面 hash 参数置空。正常情况下授权后进入页面会重新加载整个页面，也就是会执行完整的生命周期方法进入 componentDidMount 中，&lt;strong&gt;但实际中发现有些情况并没有进入 componentDidMount 方法&lt;/strong&gt;，因此在 componentDidMount 方法中添加了 hashchange 的监听，在 componentWillUnmount 中取消监听，如果在 componentDidMount 方法中需要网络请求的，也需要注意在授权返回后是否真正发起了该请求以及请求是走的网络还是缓存，可能需要进行特殊处理，就完整的解决了微信网页授权问题。&lt;/p&gt;
