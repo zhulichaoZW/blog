@@ -13,6 +13,17 @@ const styles = theme => ({
     "& a": {
       color: theme.base.colors.link
     },
+    '& :not(pre) > code[class*="language-"]': {
+      backgroundColor: "#eee",
+      color: "#555",
+      fontSize: "14px"
+    },
+    '& code[class*="language-"]': {
+      wordWrap: "break-word"
+    },
+    "& .gatsby-resp-image-figcaption": {
+      textAlign: "center"
+    },
     "& .gatsby-highlight": {
       margin: "2em 0"
     },
@@ -25,10 +36,10 @@ const styles = theme => ({
       borderRadius: ".1em"
     },
     "& .gatsby-resp-image-link": {
-      margin: "2em -1.5rem",
+      margin: "2em -1.5rem 0.5em",
       border: "none",
       [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
-        margin: "2.5em -3.5rem"
+        margin: "2.5em -3.5rem 0.5em"
       }
     },
     "& h2, & h3": {
