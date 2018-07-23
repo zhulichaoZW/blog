@@ -1,5 +1,5 @@
 ---
-title: 微信小程序基础2
+title: 微信小程序基础
 subTitle: 关于小程序开发
 cover: folder.png
 category: WeChat

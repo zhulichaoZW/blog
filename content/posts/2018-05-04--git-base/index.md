@@ -1,5 +1,5 @@
 ---
-title: Git-基础2
+title: Git-基础
 subTitle: 关于 commit、rebase 使用，fork 机制
 category: Git
 cover: tool.png

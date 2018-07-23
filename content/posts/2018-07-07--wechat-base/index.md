@@ -5,11 +5,11 @@ cover: error.png
 category: WeChat
 ---
 
-<iframe 
-  width="200" 
-  height="136" 
-  src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
-  frameborder="0" 
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/Ilg3gGewQ5U"
+  frameborder="0"
   allowfullscreen
 />
 
