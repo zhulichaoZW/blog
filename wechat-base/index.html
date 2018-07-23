@@ -1,0 +1,1692 @@
+<!DOCTYPE html><html lang="en" prefix="og: http://ogp.me/ns#"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/component---src-layouts-index-js-a9094b8f6eedc24013e2.js" as="script"/><link rel="preload" href="/component---src-templates-post-template-js-2ec2b17e5cc12c6a6b6c.js" as="script"/><link rel="preload" href="/path---wechat-base-962a7a0cc3242a07ef40.js" as="script"/><link rel="preload" href="/app-f7c6e24d8b1eed10505d.js" as="script"/><link rel="preload" href="/commons-e92bbc9addba58eb4a2b.js" as="script"/><style type="text/css" id="server-side-jss">html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  background-color: #fafafa;
+}
+@media print {
+  body {
+    background-color: #fff;
+  }
+}
+.jss46 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  position: absolute;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.jss47 {
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  position: absolute;
+}
+.jss48 {
+  opacity: 0.3;
+  transform: scale(1);
+  animation: mui-ripple-enter 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.jss49 {
+  animation-duration: 200ms;
+}
+.jss50 {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  display: block;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+.jss51 {
+  opacity: 0;
+  animation: mui-ripple-exit 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.jss52 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: mui-ripple-pulsate 2500ms cubic-bezier(0.4, 0, 0.2, 1) 200ms infinite;
+}
+@keyframes mui-ripple-enter {
+  0% {
+    opacity: 0.1;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+@keyframes mui-ripple-exit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes mui-ripple-pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.jss36 {
+  color: inherit;
+  cursor: pointer;
+  margin: 0;
+  border: 0;
+  display: inline-flex;
+  padding: 0;
+  outline: none;
+  position: relative;
+  user-select: none;
+  align-items: center;
+  border-radius: 0;
+  vertical-align: middle;
+  justify-content: center;
+  -moz-appearance: none;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.jss36::-moz-focus-inner {
+  border-style: none;
+}
+.jss36.jss37 {
+  cursor: default;
+  pointer-events: none;
+}
+.jss30 {
+  flex: 0 0 auto;
+  width: 48px;
+  color: rgba(0, 0, 0, 0.54);
+  height: 48px;
+  padding: 0;
+  font-size: 1.7142857142857142rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+}
+.jss30:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.jss30.jss34 {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .jss30:hover {
+    background-color: transparent;
+  }
+}
+.jss30:hover.jss34 {
+  background-color: transparent;
+}
+.jss31 {
+  color: inherit;
+}
+.jss32 {
+  color: #5b93f1;
+}
+.jss32:hover {
+  background-color: rgba(91, 147, 241, 0.08);
+}
+@media (hover: none) {
+  .jss32:hover {
+    background-color: transparent;
+  }
+}
+.jss33 {
+  color: #f50057;
+}
+.jss33:hover {
+  background-color: rgba(245, 0, 87, 0.08);
+}
+@media (hover: none) {
+  .jss33:hover {
+    background-color: transparent;
+  }
+}
+.jss35 {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.jss39 {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 24px;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  user-select: none;
+  flex-shrink: 0;
+}
+.jss40 {
+  color: #5b93f1;
+}
+.jss41 {
+  color: #f50057;
+}
+.jss42 {
+  color: rgba(0, 0, 0, 0.54);
+}
+.jss43 {
+  color: #f44336;
+}
+.jss44 {
+  color: rgba(0, 0, 0, 0.26);
+}
+.jss45 {
+  font-size: inherit;
+}
+.jss56 {
+  background-color: #fff;
+}
+.jss57 {
+  border-radius: 4px;
+}
+.jss58 {
+  box-shadow: none;
+}
+.jss59 {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+.jss60 {
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),0px 2px 2px 0px rgba(0, 0, 0, 0.14),0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+.jss61 {
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2),0px 3px 4px 0px rgba(0, 0, 0, 0.14),0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+}
+.jss62 {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),0px 4px 5px 0px rgba(0, 0, 0, 0.14),0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.jss63 {
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 5px 8px 0px rgba(0, 0, 0, 0.14),0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+}
+.jss64 {
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 6px 10px 0px rgba(0, 0, 0, 0.14),0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+.jss65 {
+  box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.2),0px 7px 10px 1px rgba(0, 0, 0, 0.14),0px 2px 16px 1px rgba(0, 0, 0, 0.12);
+}
+.jss66 {
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),0px 8px 10px 1px rgba(0, 0, 0, 0.14),0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+.jss67 {
+  box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.2),0px 9px 12px 1px rgba(0, 0, 0, 0.14),0px 3px 16px 2px rgba(0, 0, 0, 0.12);
+}
+.jss68 {
+  box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2),0px 10px 14px 1px rgba(0, 0, 0, 0.14),0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+}
+.jss69 {
+  box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.2),0px 11px 15px 1px rgba(0, 0, 0, 0.14),0px 4px 20px 3px rgba(0, 0, 0, 0.12);
+}
+.jss70 {
+  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2),0px 12px 17px 2px rgba(0, 0, 0, 0.14),0px 5px 22px 4px rgba(0, 0, 0, 0.12);
+}
+.jss71 {
+  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2),0px 13px 19px 2px rgba(0, 0, 0, 0.14),0px 5px 24px 4px rgba(0, 0, 0, 0.12);
+}
+.jss72 {
+  box-shadow: 0px 7px 9px -4px rgba(0, 0, 0, 0.2),0px 14px 21px 2px rgba(0, 0, 0, 0.14),0px 5px 26px 4px rgba(0, 0, 0, 0.12);
+}
+.jss73 {
+  box-shadow: 0px 8px 9px -5px rgba(0, 0, 0, 0.2),0px 15px 22px 2px rgba(0, 0, 0, 0.14),0px 6px 28px 5px rgba(0, 0, 0, 0.12);
+}
+.jss74 {
+  box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2),0px 16px 24px 2px rgba(0, 0, 0, 0.14),0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+}
+.jss75 {
+  box-shadow: 0px 8px 11px -5px rgba(0, 0, 0, 0.2),0px 17px 26px 2px rgba(0, 0, 0, 0.14),0px 6px 32px 5px rgba(0, 0, 0, 0.12);
+}
+.jss76 {
+  box-shadow: 0px 9px 11px -5px rgba(0, 0, 0, 0.2),0px 18px 28px 2px rgba(0, 0, 0, 0.14),0px 7px 34px 6px rgba(0, 0, 0, 0.12);
+}
+.jss77 {
+  box-shadow: 0px 9px 12px -6px rgba(0, 0, 0, 0.2),0px 19px 29px 2px rgba(0, 0, 0, 0.14),0px 7px 36px 6px rgba(0, 0, 0, 0.12);
+}
+.jss78 {
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2),0px 20px 31px 3px rgba(0, 0, 0, 0.14),0px 8px 38px 7px rgba(0, 0, 0, 0.12);
+}
+.jss79 {
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2),0px 21px 33px 3px rgba(0, 0, 0, 0.14),0px 8px 40px 7px rgba(0, 0, 0, 0.12);
+}
+.jss80 {
+  box-shadow: 0px 10px 14px -6px rgba(0, 0, 0, 0.2),0px 22px 35px 3px rgba(0, 0, 0, 0.14),0px 8px 42px 7px rgba(0, 0, 0, 0.12);
+}
+.jss81 {
+  box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.2),0px 23px 36px 3px rgba(0, 0, 0, 0.14),0px 9px 44px 8px rgba(0, 0, 0, 0.12);
+}
+.jss82 {
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),0px 24px 38px 3px rgba(0, 0, 0, 0.14),0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+.jss89 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  text-align: left;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.jss90 {
+  position: relative;
+}
+.jss91 {
+  background-color: rgba(0, 0, 0, 0.01);
+}
+.jss92 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.jss93 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.jss94 {
+  opacity: 0.5;
+}
+.jss95 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  background-clip: padding-box;
+}
+.jss96 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width:600px) {
+  .jss96 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.jss97 {
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.jss97:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.01);
+}
+@media (hover: none) {
+  .jss97:hover {
+    background-color: transparent;
+  }
+}
+.jss98 {
+  padding-right: 32px;
+}
+.jss87 {
+  width: auto;
+  color: rgba(0, 0, 0, 0.87);
+  height: 24px;
+  overflow: hidden;
+  font-size: 1.1428571428571428rem;
+  box-sizing: content-box;
+  font-weight: 400;
+  line-height: 1.5em;
+  font-family: Arial, sans-serif;
+  white-space: nowrap;
+  padding-left: 16px;
+  text-overflow: ellipsis;
+  padding-right: 16px;
+}
+.jss87.jss88 {
+  background-color: rgba(0, 0, 0, 0.14);
+}
+.jss83 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-style: none;
+}
+.jss84 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.jss85 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.jss86 {
+  padding-top: 0;
+}
+.jss103 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  font-size: 1.4285714285714284rem;
+  flex-shrink: 0;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  user-select: none;
+  border-radius: 50%;
+  justify-content: center;
+}
+.jss104 {
+  color: #fafafa;
+  background-color: #bdbdbd;
+}
+.jss105 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  object-fit: cover;
+}
+.jss19 {
+  display: none;
+}
+.is-aside.closed .jss19, .moving-featured.closed .jss19 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  margin: 0;
+  display: flex;
+  padding: 0 30px 0 40px;
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.jss19 h3 {
+  color: #555555;
+  margin: -.2em 0 0 0;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.jss19 h3 small {
+  margin: 0 0 .1em;
+  display: block;
+  font-size: .6em;
+  font-weight: 300;
+  letter-spacing: .2em;
+}
+.jss20 {
+  color: #555555;
+}
+.jss21 {
+  color: #5b93f1;
+  margin: 0 calc(-.5rem + 20px) 1em calc(-.5rem + 20px);
+  padding: 0 1em 1em;
+  position: relative;
+  font-size: 1.2em;
+  line-height: 1;
+  font-weight: 300;
+  border-bottom: 1px solid #dedede;
+}
+.jss21 strong {
+  display: block;
+  font-weight: 600;
+}
+.jss21 small {
+  margin: 0 0 .3em 0;
+  display: block;
+}
+@media (min-width: 1024px) {
+  .jss21 {
+    margin: 0 0 1em 0;
+    padding: 0 1em 1.5em;
+  }
+  .is-aside .jss21 {
+    margin: 0 calc(-.5rem + 20px) 1em calc(-.5rem + 20px);
+    padding: 0 0 1em .5em;
+  }
+}
+.jss22 {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.jss23 {
+  margin: 0 0 .7em 0;
+  transition: height 1s;
+}
+@media (min-width: 600px) {
+  .jss23 {
+    margin: 0 0 1.5rem 0;
+  }
+}
+@media (min-width: 1024px) {
+  .moving-featured .jss23, .is-aside .jss23 {
+    margin: 0 0 0 0;
+  }
+}
+.jss24 {
+  color: #555555;
+  display: flex;
+  padding: .7em 1em .7em 1em;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+@media (hover: hover) {
+  .jss24:hover {
+    color: #5b93f1;
+  }
+  .jss24:hover .pointer {
+    position: relative;
+    transition: all .4s ease-out;
+    margin-left: -15px;
+    border-radius: 4px;
+  }
+}
+.jss25 {
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  transition: all .5s;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.jss25 img {
+  width: 100%;
+}
+@media (min-width: 600px) {
+  .jss25 {
+    width: 80px;
+    height: 80px;
+    margin-right: .5em;
+  }
+}
+@media (min-width: 1024px) {
+  .jss25 {
+    width: 110px;
+    height: 90px;
+    transition: all .3s;
+    margin-right: .8em;
+    transition-timing-function: ease;
+  }
+  .moving-featured .jss25, .is-aside .jss25 {
+    width: 30px;
+    height: 30px;
+  }
+}
+.jss26 {
+  width: 100%;
+  margin: 0 0 0 1.5em;
+  height: 100%;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.jss26 h1 {
+  margin: 0;
+  font-size: 1.3em;
+  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+.jss26 h2 {
+  margin: .3em 0 0 0;
+  display: block;
+  font-size: 1em;
+  line-height: 1.2;
+}
+@media (min-width: 1024px) {
+  .moving-featured .jss26, .is-aside .jss26 {
+    margin: 0 0 0 .5em;
+  }
+}
+.jss26 h3 {
+  margin: .5em 0 0 0;
+  display: block;
+  font-size: 0.7em;
+  line-height: 1;
+}
+@media (min-width: 600px) {
+  .jss26 h3 {
+    font-size: 0.8049999999999999em;
+  }
+}
+@media (min-width: 1024px) {
+  .jss26 h3 {
+    font-size: 0.9099999999999999em;
+  }
+  .moving-featured .jss26 h3, .is-aside .jss26 h3 {
+    display: none;
+  }
+}
+@media (min-width: 600px) {
+  .jss26 h2 {
+    font-size: 1.15em;
+  }
+}
+@media (min-width: 1024px) {
+  .jss26 h2 {
+    font-size: 1.3em;
+  }
+  .moving-featured .jss26 h2, .is-aside .jss26 h2 {
+    display: none;
+  }
+}
+@media (min-width: 600px) {
+  .jss26 h1 {
+    font-size: 1.4949999999999999em;
+  }
+}
+@media (min-width: 1024px) {
+  .jss26 h1 {
+    font-size: 1.6900000000000002em;
+  }
+  .moving-featured .jss26 h1, .is-aside .jss26 h1 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+}
+.jss16 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+.jss17 {
+  padding: calc(60px + 1.3rem) 1.3rem calc(60px + 1.3rem) 1.3rem;
+}
+@media (min-width: 600px) {
+  .jss17 {
+    padding: calc(60px + 2rem) 2rem calc(60px + 2rem) 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .jss17 {
+    left: 320px;
+    padding: 2rem  calc(1rem + 17px) calc(2rem + 17px) 2rem;
+  }
+  .moving-featured .jss17, .is-aside .jss17 {
+    padding: 1rem .5rem 1rem .5rem;
+  }
+}
+.jss18 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.is-aside.closed .jss18, .moving-featured.closed .jss18 {
+  display: none;
+}
+.jss15 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  transform: translate3d(0, 0, 0);
+  background: #ffffff;
+  transition: left .9s;
+  will-change: left, top, bottom, width;
+  transition-timing-function: ease;
+}
+@media (max-width: 1023px) {
+  .jss15.is-aside {
+    left: -100%;
+  }
+  .jss15.is-featured {
+    left: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .jss15.is-featured {
+    top: 0;
+    left: 320px;
+    width: calc(100vw - 320px - 60px);
+    transition: left .9s;
+  }
+  .jss15.is-aside {
+    top: auto;
+    left: 0;
+    width: 319px;
+    z-index: 1;
+    transition: none, bottom 0.5s;
+  }
+  .jss15.moving-aside {
+    top: 0;
+    left: calc(-100vw + 700px);
+    width: calc(100vw - 320px - 60px);
+    transition: left 0.9s;
+  }
+  .jss15.resizing-aside {
+    top: auto;
+    left: 0;
+    width: 319px;
+    transition: none;
+  }
+  .jss15.moving-featured {
+    top: auto;
+    left: 0;
+    width: 319px;
+    bottom: -100%;
+    z-index: 1;
+    transition: bottom .3s;
+  }
+  .jss15.resizing-featured {
+    top: 0;
+    left: calc(-100vw + 700px);
+    width: calc(100vw - 320px - 60px);
+    bottom: auto;
+    transition: none;
+  }
+  .jss15.resizing-aside.closed {
+    bottom: calc(-100% + 100px);
+    height: calc(100% - 100px);
+  }
+  .jss15.resizing-aside.open {
+    bottom: calc(-100% + 100px);
+    height: calc(100% - 100px);
+  }
+  .jss15.is-aside.closed {
+    bottom: calc(-100% + 100px + 80px);
+    height: calc(100% - 100px);
+  }
+  .jss15.is-aside.open {
+    bottom: 0;
+    height: calc(100% - 100px);
+  }
+  .jss15.is-aside::after {
+    top: 0;
+    left: 20px;
+    right: 20px;
+    height: 0;
+    content: "";
+    position: absolute;
+    border-top: 1px solid #dedede;
+  }
+}
+.jss54 {
+  color: #555555;
+}
+.jss55 {
+  pointer-events: none;
+}
+.jss27 {
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  height: 60px;
+  display: flex;
+  padding: 0 20px;
+  position: absolute;
+  background: #ffffff;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.jss27::before {
+  top: 0;
+  left: 20px;
+  right: 20px;
+  height: 0;
+  content: "";
+  position: absolute;
+  border-top: 1px solid #dedede;
+}
+@media (min-width: 600px) {
+  .jss27 {
+    padding: 0 calc(20px * 1.5);
+  }
+}
+@media (min-width: 1024px) {
+  .jss27 {
+    top: 0;
+    left: auto;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    padding: 20px 0;
+    flex-direction: column;
+  }
+  .jss27::before {
+    top: 20px;
+    left: 0;
+    right: auto;
+    width: 0;
+    bottom: 20px;
+    height: auto;
+    border-left: 1px solid #dedede;
+  }
+}
+.jss28 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+@media (min-width: 1024px) {
+  .jss28 {
+    flex-direction: column;
+  }
+}
+.jss29 {
+  color: #555555;
+}
+.jss106 {
+  float: right;
+  margin: 5px 10px 0 0;
+}
+.jss107 {
+  color: #555555;
+}
+.jss108 {
+  pointer-events: none;
+}
+.jss99 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  background: #ffffff;
+}
+.jss99::before {
+  left: 20px;
+  right: 20px;
+  height: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  border-top: 1px solid #dedede;
+}
+@media (min-width: 1024px) {
+  .jss99 {
+    display: none;
+  }
+}
+.jss100 {
+  float: left;
+  color: #555555;
+  margin: 10px 0 0 15px;
+}
+.jss100 small {
+  margin: 2px 0 0 0;
+  display: block;
+  font-size: .65em;
+}
+.jss101 {
+  float: left;
+  margin: 13px 0 0 30px;
+  display: block;
+}
+.jss102 {
+  width: 36px;
+  border: 1px solid #ddd;
+  height: 36px;
+  border-radius: 65% 75%;
+}
+.jss1 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1px;
+  position: absolute;
+  overflow: hidden;
+}
+@media print {
+  .jss1 {
+    position: relative;
+    overflow: visible;
+  }
+}
+article, aside, footer, header, nav, section, figcaption, figure, main {
+  display: block;
+}
+h1 {
+  margin: 0.67em 0;
+  font-size: 2em;
+}
+hr {
+  height: 0;
+  overflow: visible;
+  box-sizing: content-box;
+}
+pre {
+  font-size: 1em;
+  font-family: monospace, monospace;
+}
+a:active, a:hover {
+  outline-width: 0;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+}
+b, strong {
+  font-weight: bolder;
+}
+code, kbp, samp {
+  font-size: 1em;
+  font-family: monospace, monospace;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  color: #000;
+  background-color: #ff0;
+}
+small {
+  font-size: 80%;
+}
+sub, sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+audio, video {
+  display: inline-block;
+}
+audio:not([controls]) {
+  height: 0;
+  display: none;
+}
+img {
+  border-style: none;
+  vertical-align: middle;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-size: 100%;
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+button, input {
+  overflow: visible;
+}
+button, select {
+  text-transform: none;
+}
+button, [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  color: inherit;
+  display: table;
+  padding: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  white-space: normal;
+}
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type=checkbox], [type=radio] {
+  padding: 0;
+  box-sizing: border-box;
+}
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type=search] {
+  appearance: textfield;
+  outline-offset: -2px;
+}
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  appearance: none;
+}
+::-webkit-file-upload-button {
+  font: inherit;
+  appearance: button;
+}
+details, menu {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+canvas {
+  display: inline-block;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+html {
+  box-sizing: border-box;
+  font-family: Arial;
+  line-height: 1.15;
+  text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: 100%;
+}
+html.wf-active {
+  font-family: Open Sans;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+noscript {
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  z-index: 1000;
+  padding: 1.5rem 2.5rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: #d00;
+  box-shadow: 0 0 10px 52px rgba(255,255,255,.8);
+  font-weight: 400;
+  border-radius: 2px;
+}
+body {
+  margin: 0;
+  background: #ffffff;
+  -webkit-tap-highlight-color: rgba(0,0,0,.05);
+}
+main {
+  position: relative;
+}
+h1, h2, h3 {
+  font-weight: 300;
+}
+a {
+  background: transparent;
+  transition: 0.3s;
+  font-weight: bold;
+  text-decoration: none;
+  text-decoration-skip: objects;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px white inset;
+}
+.jss2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  animation-name: main-entry;
+  animation-duration: .5s;
+}
+@media (min-width: 1024px) {
+  .jss2 {
+    left: 320px;
+    width: calc(100vw - 320px - 60px);
+  }
+}
+@media print {
+  .jss2 {
+    position: relative;
+  }
+  .jss2 > div {
+    overflow: visible!important;
+  }
+  .jss2 > div > div {
+    position: relative!important;
+  }
+}
+.jss3 {
+  margin: 0 auto;
+  padding: calc(1.5rem + undefinedpx) 1.8rem 1.5rem 1.5rem;
+}
+.jss3 strong, .jss3 b {
+  font-weight: 600;
+  letter-spacing: -.02em;
+}
+.jss3 a {
+  display: inline-block;
+  transition: 0.3s;
+  font-weight: 600;
+  text-shadow: 
+         2px  2px #ffffff,
+        -2px  2px #ffffff,
+        -2px -2px #ffffff,
+        -2px  2px #ffffff,
+        -2px  0   #ffffff,
+         2px  0   #ffffff
+      ;
+  letter-spacing: -.02em;
+  text-decoration: none;
+}
+@media (min-width: 600px) {
+  .jss3 {
+    padding: calc(2.5rem + undefinedpx) 3.5rem 2.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .jss3 {
+    padding: 3.5rem;
+  }
+}
+.jss3 a:hover {
+  color: hsl(217.60000000000002, 84.3%, 71.6%);
+}
+@keyframes main-entry {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.jss4 {
+  margin: 0 auto;
+  padding: calc(60px + 1.5rem) 1.5rem  1.5rem 1.5rem;
+  max-width: 50em;
+  background: #ffffff;
+}
+.jss4 strong, .jss4 b {
+  letter-spacing: -.02em;
+}
+.jss4 a {
+  transition: 0.3s;
+  font-weight: bold;
+  letter-spacing: -.02em;
+  text-decoration: underline;
+}
+@media (min-width: 600px) {
+  .jss4 {
+    padding: calc(2.5rem + 60px) 3.5rem 2.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .jss4 {
+    padding: 3.5rem;
+  }
+}
+.jss4 a:hover {
+  color: hsl(217.60000000000002, 84.3%, 71.6%);
+}
+.jss9 {
+  color: #333333;
+  line-height: 1.6;
+}
+.jss9 a {
+  color: #5b93f1;
+}
+.jss9 :not(pre) > code[class*="language-"] {
+  color: #555;
+  font-size: 14px;
+  background-color: #eee;
+}
+.jss9 code[class*="language-"] {
+  word-wrap: break-word;
+}
+.jss9 .gatsby-resp-image-figcaption {
+  text-align: center;
+}
+.jss9 .gatsby-highlight {
+  margin: 2em 0;
+}
+.jss9 .gatsby-resp-iframe-wrapper {
+  margin: 2em 0;
+}
+.jss9 code:not(pre) {
+  padding: .1em .3em .2em;
+  text-shadow: none;
+  border-radius: .1em;
+}
+.jss9 .gatsby-resp-image-link {
+  margin: 2em -1.5rem 0.5em;
+  border: none;
+}
+.jss9 h2, .jss9 h3 {
+  color: #555555;
+  margin: 2em 0 1em;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+.jss9 h3 {
+  font-size: 1.3em;
+}
+.jss9 p {
+  margin: 0 0 1.5em 0;
+  font-weight: 400;
+}
+.jss9 ul {
+  padding: 0 0 0 1.3em;
+  list-style: circle;
+}
+.jss9 li {
+  margin: 0 0 .5em 0;
+}
+.jss9 blockquote {
+  border: 5px solid #bbbbbb;
+  margin: 2.5em 0;
+  padding: 1em 1.1em 1em 1.3em;
+  position: relative;
+  font-style: italic;
+}
+@media (min-width: 600px) {
+  .jss9 {
+    font-size: 1.15em;
+  }
+}
+@media (min-width: 1024px) {
+  .jss9 {
+    font-size: 1.1em;
+  }
+}
+.jss9 blockquote p {
+  margin: 0;
+}
+.jss9 blockquote::before, .jss9 blockquote::after {
+  top: -5px;
+  left: 50%;
+  width: 94%;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background: #ffffff;
+  margin-left: -47%;
+}
+.jss9 blockquote::after {
+  top: auto;
+  bottom: -5px;
+}
+@media (min-width: 600px) {
+  .jss9 ul {
+    padding: 0 0 0 2em;
+  }
+}
+@media (min-width: 600px) {
+  .jss9 .gatsby-resp-image-link {
+    margin: 2.5em -3.5rem 0.5em;
+  }
+}
+.jss10 {
+  font-size: calc(1em * 1);
+}
+.jss14 {
+  color: hsl(0, 0%, 50%);
+  font-size: 0.8em;
+  line-height: 1.4;
+}
+.jss14 a {
+  color: #5b93f1;
+  font-weight: normal;
+  text-shadow: none;
+}
+.jss14 a:hover {
+  color: hsl(217.60000000000002, 84.3%, 78.1%);
+}
+.jss14 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.jss14 li {
+  margin: 0 .3em;
+  display: inline-block;
+}
+.jss13 {
+  color: #555555;
+  padding: 1.5rem 1.5rem  calc(60px + 1.5rem) 1.5rem;
+}
+.jss13 p {
+  margin: 0;
+}
+@media (min-width: 600px) {
+  .jss13 {
+    padding: 2rem 2.5rem  calc(60px + 2rem) 2.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .jss13 {
+    padding: 2rem 3rem 2rem 3rem;
+  }
+}
+.jss5 {
+  margin: 0 0 3em;
+}
+.jss6 {
+  color: #555555;
+  margin: 0 0 0.4em;
+  font-size: 1.9em;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+@media (min-width: 600px) {
+  .jss6 {
+    font-size: 2.5em;
+  }
+}
+@media (min-width: 1024px) {
+  .jss6 {
+    font-size: 2.7em;
+    letter-spacing: -0.05em;
+  }
+}
+.jss7 {
+  color: #555555;
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-weight: 300;
+}
+@media (min-width: 600px) {
+  .jss7 {
+    font-size: 1.8em;
+  }
+}
+@media (min-width: 1024px) {
+  .jss7 {
+    font-size: 1.6em;
+  }
+}
+.jss8 {
+  color: #555555;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+.jss12 {
+  margin: 3em 0 0;
+  padding: 3em 0 0;
+  border-top: 1px solid #ddd;
+}
+.jss11 {
+  color: #555555;
+  font-size: 1em;
+  line-height: 1.4;
+}
+.jss11 p {
+  margin: 0;
+}</style><title data-react-helmet="true">微信服务号开发基础 - 朱立超的个人博客</title><meta data-react-helmet="true" name="description" content="个人博客"/><meta data-react-helmet="true" property="og:url" content="https://www.zhulichao.club/wechat-base/"/><meta data-react-helmet="true" property="og:title" content="微信服务号开发基础 - 朱立超的个人博客"/><meta data-react-helmet="true" property="og:description" content="个人博客"/><meta data-react-helmet="true" property="og:image" content="/static/error-a95574b88827950db1a22f06bf11eb2b-160fa.png"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" property="fb:app_id" content="6"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="朱立超"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#ffffff"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><style id="gatsby-inlined-css">code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="#D0E0D8"/><meta name="apple-mobile-web-app-title" content="Lazywill"/><link rel="apple-touch-icon" href="/icons/apple-icon-57x57.png" sizes="57x57"/><link rel="apple-touch-icon" href="/icons/apple-icon-60x60.png" sizes="60x60"/><link rel="apple-touch-icon" href="/icons/apple-icon-72x72.png" sizes="72x72"/><link rel="apple-touch-icon" href="/icons/apple-icon-76x76.png" sizes="76x76"/><link rel="apple-touch-icon" href="/icons/apple-icon-114x114.png" sizes="114x114"/><link rel="apple-touch-icon" href="/icons/apple-icon-120x120.png" sizes="120x120"/><link rel="apple-touch-icon" href="/icons/apple-icon-144x144.png" sizes="144x144"/><link rel="apple-touch-icon" href="/icons/apple-icon-152x152.png" sizes="152x152"/><link rel="apple-touch-icon" href="/icons/apple-icon-180x180.png" sizes="180x180"/><link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png"/><link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png"/></head><body><noscript>You need to enable JavaScript to run this app!</noscript><div id="___gatsby"><div class="jss1"><main class="jss2"><div style="position:relative;overflow:hidden;width:100%;height:100%"><div style="position:absolute;top:0;left:0;right:0;bottom:0;overflow:hidden;-webkit-overflow-scrolling:touch;margin-right:0;margin-bottom:0"><article class="jss4"><header class="jss5"><h1 class="jss6">微信服务号开发基础</h1><h2 class="jss7">关于服务号开发环境、调试、登录授权、自定义分享</h2><div class="jss8">2018-07-07</div></header><div class="jss10 jss9"><div>
+          <div
+            class="gatsby-resp-iframe-wrapper"
+            style="padding-bottom: 68%; position: relative; height: 0; overflow: hidden;margin-bottom: 2em"
+          >
+            <iframe src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&amp;bizid=1023&amp;hy=SH&amp;fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" frameborder="0" allowfullscreen style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          "></iframe>
+          </div>
+          </div>
+<p>微信服务号开发其实就是普通的网站开发，只不过其中可调用微信的 js-sdk 使用基于微信的 api，我们的项目中只是使用了支付、隐藏/显示菜单、自定义分享内容的功能，主要是为了支持小程序不能进行 iOS 支付的问题。由于一部分功能是在小程序中的，就需要小程序与服务号的互相跳转。服务号可通过菜单的定义、长按图片识别二维码跳转到小程序，由于小程序内部只能识别小程序码，不能直接跳转到服务号，只能使用图片+文字引导的方式让用户自己进入服务号。</p>
+<h2>在线工具</h2>
+<p><a href="https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login">公众平台测试账号</a></p>
+<p><a href="https://mp.weixin.qq.com/debug">微信公众平台接口调试工具</a></p>
+<p><a href="https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=jsapisign">微信 JS 接口签名校验工具</a></p>
+<h2>开发环境</h2>
+<ul>
+<li>
+<p>扫码登录<a href="https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login">公众平台测试账号</a>。</p>
+</li>
+<li>
+<p>接口配置信息，URL 为后端地址，如“<a href="http://lichao-server.example/api/weixin%E2%80%9D">http://lichao-server.example/api/weixin”</a></p>
+</li>
+<li>
+<p>JS接口安全域名，前端域名，如“lichao.example”</p>
+</li>
+<li>
+<p>体验接口权限表中，网页服务/网页账号，修改网页授权获取用户基本信息为后端域名，如“lichao-server.example”</p>
+</li>
+<li>
+<p>后端需要 appID、appsecret、Token 进行微信授权、微信支付等操作</p>
+</li>
+<li>
+<p>如果是前后端分离的，后端需要设置跨域</p>
+</li>
+<li>
+<p>如果是前后端分离的，后端需要设置 cookie 在指定域名下的共享</p>
+<div class="gatsby-highlight" data-language="js">
+      <pre class="language-js"><code class="language-js"><span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> cors <span class="token keyword">from</span> <span class="token string">'cors'</span><span class="token punctuation">;</span>
+<span class="token operator">...</span>
+<span class="token comment">// 跨域设置，origin 为前端地址</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>
+  <span class="token function">cors</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token function">origin</span><span class="token punctuation">(</span>origin<span class="token punctuation">,</span> cb<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">cb</span><span class="token punctuation">(</span>undefined<span class="token punctuation">,</span> server<span class="token punctuation">.</span>whitelist<span class="token punctuation">.</span><span class="token function">includes</span><span class="token punctuation">(</span>origin<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    credentials<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 共享 cookie 设置，server.domain 为前后端都可使用的域名</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>
+  <span class="token function">session</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    store<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token punctuation">(</span><span class="token function">connectRedis</span><span class="token punctuation">(</span>session<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">{</span> client<span class="token punctuation">:</span> redis <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    name<span class="token punctuation">:</span> <span class="token string">'sid'</span><span class="token punctuation">,</span>
+    resave<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    saveUninitialized<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    secret<span class="token punctuation">:</span> server<span class="token punctuation">.</span>sessionSecret<span class="token punctuation">,</span>
+    cookie<span class="token punctuation">:</span> <span class="token punctuation">{</span> maxAge<span class="token punctuation">:</span> <span class="token number">30</span> <span class="token operator">*</span> <span class="token number">24</span> <span class="token operator">*</span> <span class="token number">60</span> <span class="token operator">*</span> <span class="token number">60</span> <span class="token operator">*</span> <span class="token number">1000</span><span class="token punctuation">,</span> domain<span class="token punctuation">:</span> server<span class="token punctuation">.</span>domain <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+      </div>
+</li>
+<li>
+<p>前端需要 appID 执行 wx.config 进行 js-sdk 签名</p>
+</li>
+</ul>
+<h2>真机调试</h2>
+<p>使用手机微信打开网页就是线上运行的效果，但这样不能使用 localhost 或 127.0.0.1 的地址，需要内网穿透工具进行本地端口映射，然后通过穿透的地址访问，可以使用 <a href="https://ngrok.com/">ngrok</a>，但是有些慢，还是建议团队搭建完善的开发环境。</p>
+<p>可使用<a href="https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html">微信开发者工具</a>或<a href="https://mp.weixin.qq.com/wiki?t=resource/res_main&#x26;id=mp1455784140">微信web开发者工具</a>进行调试。打开微信web开发者工具可能会报错，一直点确定就打开了。微信web开发者工具可进行移动调试，但需要注意，它在 Network 中显示的请求可能不准确，个人认为是过滤掉了微信内部的请求。以下为授权操作的请求对比。</p>
+<p>
+  <figure class="gatsby-resp-image-figure">
+  
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/error-a95574b88827950db1a22f06bf11eb2b-a21d8.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 40.952380952380956%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABvElEQVQoz3WRv2/aQBiGPVf9qzp16T/Tte0YqUO3LB2SgUpJFNRUQOJAIEDVdCiQsiB+CINtDMLY2Bi3OBAa6endoUTq0OHRe/fd+f3e76yZA5PhYMjAGDA0hphDk5E9wjItbGuEYztPjEc7lecS27TV3hLfSB+J5rou8/mcOFqyWCxwpy6GYTAeTzBNk263S6fTUbTbbXq9HkbfoN/vY9u2qHeZTqfMhI/00pLVilK5yus379j/eKAMj4+POD1Nc/b5jOvSNRe6Tj6fJ5c7p1Iuc/PthnKlSqvV4qpYFEYzwjAkCAK0h4c/7O19QHv+jBcvX4lOM5WiVquJFAbb7Zb1ev1EkiSKlQgSx7HSKIqUmZxUk8V6rUHq8Iiry5KKXRRdJblsjqwiy3lOqEjYqNfVPpPJUK1+5bZxi36p0xf/QD6Zpt7vV8zmfkNyl+B5nhgtK8Y+4VMqRTqdJiVUGhQKBXT9gmazieM4uBMb350wcSyWgUsoR5ZRfd/Hm3nCzFex/2V3Ltfyrmwoa7/jiMMfCe8rG/a/3/O2cMfYDXYJ5cXHN3hc/5+QudBFMKfYijipx3z5uVTqegF/AU7ZMHB7og+TAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;"
+        alt="微信web开发者工具报错"
+        title="微信web开发者工具报错"
+        src="/static/error-a95574b88827950db1a22f06bf11eb2b-c1415.png"
+        srcset="/static/error-a95574b88827950db1a22f06bf11eb2b-23fbd.png 200w,
+/static/error-a95574b88827950db1a22f06bf11eb2b-a66bf.png 400w,
+/static/error-a95574b88827950db1a22f06bf11eb2b-c1415.png 800w,
+/static/error-a95574b88827950db1a22f06bf11eb2b-a21d8.png 840w"
+        sizes="(max-width: 800px) 100vw, 800px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    
+  <figcaption class="gatsby-resp-image-figcaption">微信web开发者工具报错</figcaption>
+  </figure>
+      
+
+  <figure class="gatsby-resp-image-figure">
+  
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/tool-d28a3acc9dc774d5cd1337942e3c2792-e0358.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 759px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 33.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABd0lEQVQoz0WRWZLUMBBEff+L8MMBuAIRNEzPAL15323Zlry72w2PsieI+cjIqlJKkcqywuMrwfGN8O0n3uE7/rcDwY8XMseldH16VTFqw5hmNFGMKUoezz/My51xmkk9n9p0jNIP4x3r4qQEcUWYNPhhiRcUBJEiVT1hplHtg6jsOIsuyg2BINF3cpmnepFZS2wm9PyXbgKrMgPzk3esH7wIVNMxSJGVmmRD0XB4PXE4/ibKFHlZo2ojjy/8qldc/cSyHY+iVIzjxDS9Y6uXZdnn/9mWCOIk5Xy5EUYJ8zzv2iiKUKbnkzvzWWCdRHCTR23X42q7wj6O5BLIpSTL96zyYosiFEeK89WmkUzvj5V+GHf9JAZ4TrRzKw5TjV/0eHmHkxm2/rblWfbc4ppAOCi6vb5Ktl+PV14uAY5o8m7lLLmHookl1y/pCWuzr01L3WiB2bmqG9p+2L/aaL2fb27KqpbFRaRZsc+2M1VVst2JdV1pZMv/AJ6aCxTAcLB2AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;"
+        alt="微信开发者工具"
+        title="微信开发者工具"
+        src="/static/tool-d28a3acc9dc774d5cd1337942e3c2792-e0358.png"
+        srcset="/static/tool-d28a3acc9dc774d5cd1337942e3c2792-2ea4b.png 200w,
+/static/tool-d28a3acc9dc774d5cd1337942e3c2792-45e84.png 400w,
+/static/tool-d28a3acc9dc774d5cd1337942e3c2792-e0358.png 759w"
+        sizes="(max-width: 759px) 100vw, 759px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    
+  <figcaption class="gatsby-resp-image-figcaption">微信开发者工具</figcaption>
+  </figure>
+      
+
+  <figure class="gatsby-resp-image-figure">
+  
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/web_tool-72c347eed6ca4d3042bc9e5440641601-5c872.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 774px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 10.723514211886306%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAeElEQVQI1y2LWw6CMBAAuf/FvILEhEShLWWX8rIQUDOuj4/JZD6miM4jl4p7aMnecOHnNrJ0SrrW5DSg5kkToRPWbf+yHU80dqg9Ic/IPFJUvsdND4YD0m78/WnJL259pt+gbJR22mlkIVkPRrQua8HpynkZOYnnDdLnl3OEMMW4AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;"
+        alt="微信web开发者工具"
+        title="微信web开发者工具"
+        src="/static/web_tool-72c347eed6ca4d3042bc9e5440641601-5c872.png"
+        srcset="/static/web_tool-72c347eed6ca4d3042bc9e5440641601-9950e.png 200w,
+/static/web_tool-72c347eed6ca4d3042bc9e5440641601-11232.png 400w,
+/static/web_tool-72c347eed6ca4d3042bc9e5440641601-5c872.png 774w"
+        sizes="(max-width: 774px) 100vw, 774px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    
+  <figcaption class="gatsby-resp-image-figcaption">微信web开发者工具</figcaption>
+  </figure>
+      </p>
+<h2>登录授权</h2>
+<p>参考<a href="https://mp.weixin.qq.com/wiki?t=resource/res_main&#x26;id=mp1421140842">微信网页授权</a>文档，工作主要是在后端，提供一个地址供前端访问，其余工作都由后端完成。后端确保 appID、appsecret、Token 值正确，服务号设置确保接口配置信息、JS接口安全域名、授权回调页面域名正确，即可完成登录授权。前后端都需要注意哪些设置的值是带协议的，哪些是不带协议的，如果服务号设置和后端设置的 appID 等值是正确的，可能是由于多带或少带协议名返回 redirect<em>uri 错误。我们项目中的 API</em>SERVER_URL 环境变量如果带了协议名，就会返回这个错误。在微信开发者工具中，授权是跳转到一个登录的页面，在真机上是弹框授权。</p>
+<p>因为微信网页授权其实是进行的页面跳转，在项目中如果授权后仍然停留在当前页面，但要发生一些行为，如弹框，只能通过授权后的回调地址带参数的形式。建议授权后的回调地址如果需要传参数，使用 hash 的形式传参，这是因为这个页面如果需要使用 js-sdk，在 iOS 上页面路径发生变化可能会导致 <code class="language-text">wx.config()</code> 执行失败，但 hash 的形式不会有影响。进入页面时在 componentDidMount 中判断 url 是否带有指定的 hash 参数，有则表示是授权后进入的当前页面，执行指定的行为，然后将页面 hash 参数置空。正常情况下授权后进入页面会重新加载整个页面，也就是会执行完整的生命周期方法进入 componentDidMount 中，<strong>但实际中发现有些情况并没有进入 componentDidMount 方法</strong>，因此在 componentDidMount 方法中添加了 hashchange 的监听，在 componentWillUnmount 中取消监听，如果在 componentDidMount 方法中需要网络请求的，也需要注意在授权返回后是否真正发起了该请求以及请求是走的网络还是缓存，可能需要进行特殊处理，就完整的解决了微信网页授权问题。</p>
+<p>微信开发者工具中可通过，清缓存 -> 清除开发者工具cookie 取消授权；iOS 真机可通过微信中，我 -> 设置 -> 通用 -> 存储空间 -> 清理微信缓存，取消授权；anroid 真机可通过在微信中，打开网页 debugx5.qq.com，勾上最下面的四项 Cookie、文件缓存、广告过滤缓存、DNS缓存，点击清除取消授权。</p>
+<p>示例代码如下：</p>
+<div class="gatsby-highlight" data-language="js">
+      <pre class="language-js"><code class="language-js"><span class="token keyword">import</span> queryString <span class="token keyword">from</span> <span class="token string">'query-string'</span><span class="token punctuation">;</span>
+<span class="token operator">...</span>
+<span class="token keyword">class</span> <span class="token class-name">Page</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+  <span class="token keyword">public</span> <span class="token keyword">async</span> <span class="token function">componentDidMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 判断是否是后端登录返回的</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">replaceUrl</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    window<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'hashchange'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>replaceUrl<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">public</span> <span class="token function">componentWillUnmount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    window<span class="token punctuation">.</span><span class="token function">removeEventListener</span><span class="token punctuation">(</span><span class="token string">'hashchange'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>replaceUrl<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">public</span> <span class="token function-variable function">replaceUrl</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>window<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">const</span> parsedHash <span class="token operator">=</span> queryString<span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>window<span class="token punctuation">.</span>location<span class="token punctuation">.</span>hash<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>parsedHash<span class="token punctuation">.</span>show <span class="token operator">===</span> <span class="token string">'true'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        window<span class="token punctuation">.</span>location<span class="token punctuation">.</span>hash <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span>
+        <span class="token comment">// 显示 actionSheet</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>actionSheet<span class="token punctuation">.</span><span class="token function">handleShow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">public</span> showActionSheet <span class="token operator">=</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> callbackUri <span class="token operator">=</span> <span class="token template-string"><span class="token string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>config<span class="token punctuation">.</span>clientUrl<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">/sharePlan#show=true`</span></span><span class="token punctuation">;</span>
+    Router<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>
+      <span class="token template-string"><span class="token string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>config<span class="token punctuation">.</span>serverUrl<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">/api/weixin/auth?callbackUri=</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>callbackUri<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">public</span> <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// ...</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
+      </div>
+<h2>js-sdk 使用</h2>
+<p>参考<a href="https://mp.weixin.qq.com/wiki?t=resource/res_main&#x26;id=mp1421141115">微信JS-SDK说明文档</a>文档，前端所有需要使用 JS-SDK 的页面必须先执行 <code class="language-text">wx.config()</code> 注入配置信息，前端传入页面 url 给后端，后端返回 timestamp、nonceStr、signature，建议 appId 也一起由后端返回，前端就不需要自己配置 appID 了。</p>
+<p>从文档中看注入配置信息没有什么难点，在微信开发者工具、android 真机也非常顺利，但 iOS 真机处了问题，一直提示“invalid signature签名错误”，各种排查问题，后来通过复制页面连接，发现在 iOS 真机单页应用在路由切换时页面 url 一直保持不变，都是第一个打开页面的 url。因此使用了，在项目入口文件，定义一个变量保存页面 url，该变量只被赋值一次，来确保该变量保存的是初次进入页面的 url，然后通过 context 的形式传入到其它页面，在获取 wx.config 的签名参数时，判断如果是 iOS 平台，则传入 context 中的第一个打开页面的 url，否则传入当前页面 url，就解决了签名错误的问题。</p>
+<p>还有一个可能遇到的问题，通过服务号进入页面时报签名错误，复制当前网页链接直接进入则签名正确，请检查服务号菜单配置中路径是否正确，可能是路径末尾缺少一个 <code class="language-text">/</code>。程序猿已在风中凌乱。。。</p>
+<p>示例代码如下：</p>
+<div class="gatsby-highlight" data-language="js">
+      <pre class="language-js"><code class="language-js"><span class="token comment">// _app.tsx</span>
+<span class="token keyword">const</span> ContextType <span class="token operator">=</span> <span class="token punctuation">{</span>
+  initialUrl<span class="token punctuation">:</span> PropTypes<span class="token punctuation">.</span>string<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> initialUrl<span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MyApp</span> <span class="token keyword">extends</span> <span class="token class-name">App</span> <span class="token punctuation">{</span>
+  <span class="token keyword">public</span> <span class="token keyword">static</span> childContextTypes <span class="token operator">=</span> ContextType<span class="token punctuation">;</span>
+
+  <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">async</span> <span class="token function">getInitialProps</span><span class="token punctuation">(</span><span class="token punctuation">{</span> Component<span class="token punctuation">,</span> ctx <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> pageProps <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>Component<span class="token punctuation">.</span>getInitialProps<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      pageProps <span class="token operator">=</span> <span class="token keyword">await</span> Component<span class="token punctuation">.</span><span class="token function">getInitialProps</span><span class="token punctuation">(</span>ctx<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">return</span> <span class="token punctuation">{</span> pageProps<span class="token punctuation">,</span> query<span class="token punctuation">:</span> ctx<span class="token punctuation">.</span>query<span class="token punctuation">,</span> asPath<span class="token punctuation">:</span> ctx<span class="token punctuation">.</span>asPath <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">public</span> <span class="token function">getChildContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      initialUrl<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token operator">...</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 使用组件</span>
+<span class="token keyword">try</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 1.获取签名需要的页面 url</span>
+  <span class="token keyword">let</span> signUrl <span class="token operator">=</span> <span class="token template-string"><span class="token string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>config<span class="token punctuation">.</span>clientUrl<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>Router<span class="token punctuation">.</span>asPath<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span><span class="token punctuation">;</span>
+  <span class="token comment">// 1.1判断 ios 终端</span>
+  <span class="token keyword">const</span> userAgent <span class="token operator">=</span> navigator<span class="token punctuation">.</span>userAgent<span class="token punctuation">;</span>
+  <span class="token keyword">const</span> isiOS <span class="token operator">=</span> <span class="token operator">!</span><span class="token operator">!</span>userAgent<span class="token punctuation">.</span><span class="token function">match</span><span class="token punctuation">(</span><span class="token regex">/\(i[^;]+;( U;)? CPU.+Mac OS X/</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>isiOS<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    signUrl <span class="token operator">=</span> <span class="token template-string"><span class="token string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>config<span class="token punctuation">.</span>clientUrl<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>context<span class="token punctuation">.</span>initialUrl<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token comment">// 2.调用后台接口获取签名需要的参数</span>
+  <span class="token keyword">const</span> signSdkData<span class="token punctuation">:</span> SignSdkData <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token keyword">this</span><span class="token punctuation">.</span>context<span class="token punctuation">.</span>client<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    fetchPolicy<span class="token punctuation">:</span> <span class="token string">'network-only'</span><span class="token punctuation">,</span>
+    query<span class="token punctuation">:</span> signSdkQuery<span class="token punctuation">,</span>
+    variables<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      uri<span class="token punctuation">:</span> signUrl<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">// 3.进行 js-sdk 签名</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>signSdkData <span class="token operator">&amp;&amp;</span> signSdkData<span class="token punctuation">.</span>data <span class="token operator">&amp;&amp;</span> signSdkData<span class="token punctuation">.</span>data<span class="token punctuation">.</span>signSdk<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> appId<span class="token punctuation">,</span> nonceStr<span class="token punctuation">,</span> signature<span class="token punctuation">,</span> timestamp <span class="token punctuation">}</span> <span class="token operator">=</span> signSdkData<span class="token punctuation">.</span>data<span class="token punctuation">.</span>signSdk<span class="token punctuation">;</span>
+    wx<span class="token punctuation">.</span><span class="token function">config</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      appId<span class="token punctuation">,</span>
+      debug<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      jsApiList<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token string">'onMenuShareAppMessage'</span><span class="token punctuation">,</span>
+        <span class="token string">'onMenuShareTimeline'</span><span class="token punctuation">,</span>
+        <span class="token string">'hideMenuItems'</span><span class="token punctuation">,</span>
+        <span class="token string">'showMenuItems'</span><span class="token punctuation">,</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      nonceStr<span class="token punctuation">,</span>
+      signature<span class="token punctuation">,</span>
+      timestamp<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 4.签名成功执行回调</span>
+    wx<span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span><span class="token function">callback</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">error</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+      </div>
+<h2>生产环境</h2>
+<ul>
+<li>注册服务号，进行微信认证</li>
+<li>开发者工具 -> web开发者工具， 添加开发者账号，才可开发该 appID 的服务号</li>
+<li>设置 -> 人员设置，添加运行人员，可登录后台和群发消息</li>
+<li>功能 -> 自定义菜单，配置菜单</li>
+<li>小程序 -> 小程序管理，添加关联的小程序</li>
+<li>小程序 -> 展示场景，在公众号资料中展示小程序</li>
+<li>设置 -> 公众号设置 -> 功能设置，JS接口安全域名为前端域名，网页授权域名为后端域名，业务域名好像没用【待确定】</li>
+<li>开发 -> 基本配置，IP白名单中添加后端 IP，服务器配置未启用【待确定】</li>
+<li>微信商户平台 -> 产品中心 -> 开发配置，设置H5支付的授权目录，注意是目录，以<code class="language-text">/</code>结尾，如 <code class="language-text">http://example.com/pages/</code></li>
+</ul></div><footer class="jss11"><div id="post-comments" class="jss12"><div><div class="fb-comments" data-colorscheme="light" data-href="https://www.zhulichao.club/wechat-base/" data-width="100%" data-skin="light"></div></div></div></footer></article><footer class="jss13"><div class="jss14"><ul>
+<li>this is a demo site of the <a href="https://github.com/greglobinski/gatsby-starter-personal-blog">gatsby-starter-personal-blog</a></li>
+<li>built by <a href="https://www.greglobinski.com">greg lobinski</a></li>
+<li>GatsbyJS, ReactJs, CSS in JS - <a href="https://dev.greglobinski.com">Front-end web development with Greg</a></li>
+<li>deliverd by <a href="https://www.netlify.com/">Netlify</a></li>
+<li>photos by <a href="https://unsplash.com">unsplash.com</a></li>
+</ul></div></footer></div><div style="position:absolute;height:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;left:2px;border-radius:3px"><div style="position:relative;display:block;height:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div><div style="position:absolute;width:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;top:2px;border-radius:3px"><div style="position:relative;display:block;width:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div></div></main><nav class="jss15 is-aside open "><div class="jss16"><div style="position:relative;overflow:hidden;width:100%;height:100%"><div style="position:absolute;top:0;left:0;right:0;bottom:0;overflow:hidden;-webkit-overflow-scrolling:touch;margin-right:0;margin-bottom:0"><div class="jss17"><header></header><ul class="jss18"><li class="jss23 WeChat" style="display:flex"><a class="jss24 active" aria-current="true" href="/wechat-base/"><div class="jss25 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss26"><h1>微信服务号开发基础</h1><h2>关于服务号开发环境、调试、登录授权、自定义分享</h2><h3>Last Editing - <!-- -->2018-07-07</h3></div></a></li><li class="jss23 Git" style="display:flex"><a class="jss24" aria-current="false" href="/git-base/"><div class="jss25 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss26"><h1>Git-基础</h1><h2>关于 commit、rebase 使用，fork 机制</h2><h3>Last Editing - <!-- -->2018-05-04</h3></div></a></li><li class="jss23 WeChat" style="display:flex"><a class="jss24 active" aria-current="true" href="/wechat-base/"><div class="jss25 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss26"><h1>微信小程序基础</h1><h2>关于小程序开发</h2><h3>Last Editing - <!-- -->2018-04-08</h3></div></a></li></ul></div></div><div style="position:absolute;height:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;left:2px;border-radius:3px"><div style="position:relative;display:block;height:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div><div style="position:absolute;width:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;top:2px;border-radius:3px"><div style="position:relative;display:block;width:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div></div></div></nav><div class="jss27"><div class="jss28"><button tabindex="0" class="jss36 jss30 jss29" type="button" aria-label="Back to list" title="Back to the list"><span class="jss35"><svg class="jss39" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path></g></svg></span><span class="jss46"></span></button><a tabindex="0" class="jss36 jss30 jss29" role="button" aria-label="Search" data-shape="closed" title="Search" href="/search/"><span class="jss35"><svg class="jss39 jss29" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></g></svg></span><span class="jss46"></span></a></div><div class="jss28"><nav class="jss53"><div><div><button tabindex="0" class="jss36 jss30 jss54" type="button" aria-label="Increase font size" aria-haspopup="true" title="Change font size"><span class="jss35"><svg class="jss39" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M9 4v3h5v12h3V7h5V4H9zm-6 8h3v7h3v-7h3V9H3v3z"></path></g></svg></span><span class="jss46"></span></button></div><div class="jss55" style="position:absolute;pointer-events:none;opacity:0"><div class="jss56 jss60 jss57" style="opacity:0;transform:scale(0.75, 0.5625);transform-origin:0 0 0" id="font-menu-list"><ul class="jss83 jss84" role="menu"><li tabindex="-1" class="jss36 jss89 jss92 jss96 jss97 jss87" role="menuitem">150%<span class="jss46"></span></li><li tabindex="-1" class="jss36 jss89 jss92 jss96 jss97 jss87" role="menuitem">125%<span class="jss46"></span></li><li tabindex="-1" class="jss36 jss89 jss92 jss96 jss97 jss87" role="menuitem">100%<span class="jss46"></span></li></ul></div></div></div></nav><button tabindex="0" class="jss36 jss30" type="button" aria-label="Back to top" title="Scroll to top"><span class="jss35"><svg class="jss39 jss29" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path></g></svg></span><span class="jss46"></span></button></div></div><aside class="jss99"><a class="jss101" href="/"><div class="jss103 jss102"><img alt="朱立超" src="data:image/jpeg;base64,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" class="jss105"/></div></a><h3 class="jss100">朱立超<small>个人博客</small></h3><nav class="jss106"><div><div><button tabindex="0" class="jss36 jss30 jss107" type="button" aria-label="More" aria-haspopup="true"><span class="jss35"><svg class="jss39" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></g></svg></span><span class="jss46"></span></button></div><div class="jss108" style="position:absolute;pointer-events:none;opacity:0"><div class="jss56 jss60 jss57" style="opacity:0;transform:scale(0.75, 0.5625);transform-origin:0 0 0" id="menu-list"><ul class="jss83 jss84" role="menu"><li tabindex="-1" class="jss36 jss89 jss92 jss96 jss97 jss87" role="menuitem">Home<span class="jss46"></span></li><a href="/about/" style="display:block" tabindex="-1"><li tabindex="-1" class="jss36 jss89 jss92 jss96 jss97 jss87" role="menuitem">About<span class="jss46"></span></li></a><a href="/starters/" style="display:block" tabindex="-1"><li tabindex="-1" class="jss36 jss89 jss92 jss96 jss97 jss87" role="menuitem">My starters<span class="jss46"></span></li></a><a href="/contact/" style="display:block" tabindex="-1"><li tabindex="-1" class="jss36 jss89 jss92 jss96 jss97 jss87" role="menuitem">Contact<span class="jss46"></span></li></a></ul></div></div></div></nav></aside></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"0":"0-af152db011ca871a5f1f.js","1":"1-ac24a8be9652ab216600.js","231608221292675":"app-f7c6e24d8b1eed10505d.js","99219681209289":"component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js","235131596041995":"component---src-templates-page-template-js-e0434750f574a9276ef2.js","198517197184460":"component---src-templates-post-template-js-2ec2b17e5cc12c6a6b6c.js","70144966829960":"component---src-pages-contact-js-2c0abecc6970f6ea79cd.js","35783957827783":"component---src-pages-index-js-aa9570313651ef926b5a.js","142807904292071":"component---src-pages-search-js-f04a8206aa464a3e27a0.js","60335399758886":"path----7d14818513af799cb1d2.js","210333531512890":"path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js","170786371021445":"path---success-b602a697f1522d8c6656.js","273950069227526":"path---about-a9544f894427a16d98cc.js","230064834116715":"path---starters-58c59349f176b0c46b62.js","36858555017647":"path---wechat-base-962a7a0cc3242a07ef40.js","211646168658359":"path---git-base-d2c84c786394a14b2fbb.js","184662623972074":"path---contact-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-fc9140ca41aa1cbc022b.js","254572558124955":"path---search-6b4547201b5d440cb830.js","114276838955818":"component---src-layouts-index-js-a9094b8f6eedc24013e2.js"}/*]]>*/</script><script>
+            
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', '1', 'auto');
+      }
+      </script><script>
+        WebFontConfig = {
+          google: {
+            families: ["Open Sans:300,400,600"]
+          }
+        };
+
+        (function(d) {
+            var wf = d.createElement('script'), s = d.scripts[0];
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+            wf.async = true;
+            s.parentNode.insertBefore(wf, s);
+        })(document);</script><script>/*<![CDATA[*/["/commons-e92bbc9addba58eb4a2b.js","/app-f7c6e24d8b1eed10505d.js","/path---wechat-base-962a7a0cc3242a07ef40.js","/component---src-templates-post-template-js-2ec2b17e5cc12c6a6b6c.js","/component---src-layouts-index-js-a9094b8f6eedc24013e2.js"].forEach(function(s){document.write('<script src="'+s+'" defer></'+'script>')})/*]]>*/</script></body></html>
